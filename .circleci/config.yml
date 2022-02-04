@@ -17,7 +17,7 @@ jobs:
       - run:
           name: "Say hello"
           # command: "curl https://production.griffin.rubix.cloud/publish-artifact"
-          command: "curl https://keppel.palantircloud.com/publish-artifact -XPOST -H \\"Content-Type: application/json\\" -d \\"{}\\"}" 
+          command: "curl https://keppel.palantircloud.com/publish-artifact -XPOST -H \"Content-Type: application/json\" -d \"{}\"}" 
           
          
 # Invoke jobs via workflows
