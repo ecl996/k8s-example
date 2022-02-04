@@ -16,7 +16,8 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "curl https://production.griffin.rubix.cloud/publish-artifact"
+          # command: "curl https://production.griffin.rubix.cloud/publish-artifact"
+          command: "echo $(curl https://google.com)" 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
