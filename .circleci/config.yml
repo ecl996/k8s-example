@@ -17,7 +17,7 @@ jobs:
       - run:
           name: "Say hello"
           # command: "curl https://production.griffin.rubix.cloud/publish-artifact"
-          command: "echo $(curl -X POST --data '{}' -v https://production.griffin.rubix.cloud/publish-artifact)" 
+          command: "echo $(curl -X POST --data '{}' -v https://production.griffin.rubix.cloud/deployment-central-synchronizer/publish-artifact)" 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
